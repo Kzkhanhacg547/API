@@ -1,0 +1,11 @@
+modules = ["python-3.12", "nodejs-18", "web", "bash"]
+run = "npm run start"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "npm run start"]
+
+[[ports]]
+localPort = 2007

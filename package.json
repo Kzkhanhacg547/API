@@ -1,0 +1,43 @@
+{
+  "name": "auto-setup",
+  "version": "1.0.0",
+  "description": "Tự động chạy setup script và khởi động ứng dụng",
+  "main": "index.js",
+  "scripts": {
+    "setup": "bash setup.sh",
+    "start": "python main.py & node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "@distube/ytdl-core": "^4.15.8",
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "canvas": "^3.0.1",
+    "chalk": "^4.1.2",
+    "chalkercli": "^1.6.4",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "douyin-api": "^0.1.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.11.2",
+    "fs-extra": "^11.3.0",
+    "helmet": "^8.0.0",
+    "hercai": "^12.4.0",
+    "ipware": "^2.0.0",
+    "javascript-obfuscator": "^4.1.1",
+    "jimp": "^0.16.13",
+    "luxon": "^3.5.0",
+    "moment-timezone": "^0.5.46",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2",
+    "request": "^2.88.2",
+    "soundcloud-downloader": "^1.0.0",
+    "string-similarity": "^4.0.4",
+    "totp-generator": "^1.0.0",
+    "uuid": "^11.0.5",
+    "ytdl-core": "^4.11.5"
+  }
+}
