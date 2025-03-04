@@ -18,10 +18,6 @@ const axios = require("axios");
 const server = require("./server.js");
 const checkIPBlocked = require("./blockIp.js");
 
-// Configuration
-global.config = require('./setting');
-process.env.API_URL = config.API;
-
 // Constants
 const PORT = process.env.PORT || 3000;
 
